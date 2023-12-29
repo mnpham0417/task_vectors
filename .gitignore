@@ -1,7 +1,7 @@
 checkpoints/
 out/
 
-*.pth
+src/checkpoints/
 src/data/
 
 # Byte-compiled / optimized / DLL files
