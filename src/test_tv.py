@@ -63,7 +63,7 @@ def parse_args():
     parser.add_argument('--pretrained_checkpoint', type=str, required=True)
     parser.add_argument('--finetuned_checkpoint', type=str, required=True)
     parser.add_argument('--target_class', type=int, required=True)
-    parser.add_argument('--alpha', type=float, default=1.1)
+    parser.add_argument('--alpha', type=float, default=0.2)
     args = parser.parse_args()
     return args
     
